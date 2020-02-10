@@ -1,6 +1,5 @@
 const { Router } = require("express");
 const Image = require("./model");
-
 const router = new Router();
 
 router.post("/images", async function(request, response, next) {
