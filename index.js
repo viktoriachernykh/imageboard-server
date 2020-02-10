@@ -21,6 +21,6 @@ function onListen() {
 
 app.get("/", (req, res) => res.send("Buenas Dias! La pagina della casa"));
 
-app.post("/image", (req, res) => res.send("Buenas Dias! La pagina della casa"));
+app.get("/image", (req, res) => res.send("Buenas Dias! La pagina della casa"));
 
 app.listen(port, onListen);
